@@ -31,11 +31,12 @@ class SpeciealHeader extends HTMLElement {
                 </div> 
 
             <div class="dropdown">
-                <button class="dropbtn" onclick="window.location.href = '/linktree.html';">Links</button>
+                <button class="dropbtn">Links</button>
                 <div class="dropdown-content">
                     <a href="https://www.instagram.com/notonprintdotcom?utm_source=qr&igsh=dmh1dXFlYnYzdDFt">Insta</a>
-                    <!-- <a href="Shortstories.html">Spotify</a> -->
                     <a href="https://letterboxd.com/kalovedessa/">Letterboxd</a>
+                    <a href="mailto:notonprintcontact@gmail.com">Email</a>
+                    <a href="https://mastodon.social/@Notonprint">Mastodon</a>
                 </div>
             </div>
 
