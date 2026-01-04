@@ -15,6 +15,7 @@ class SpeciealHeader extends HTMLElement {
                     <a href="/Text/Shortstories.html">Shortstories</a>
                     <a href="/Text/Diary.html">Diary</a>
                     <a href="/Text/Reviews.html">Reviews</a>
+                    <a href="/de/Text/Places.html">Places</a>
                 </div>
             </div> 
 
@@ -27,7 +28,7 @@ class SpeciealHeader extends HTMLElement {
             </div> 
 
             <div class="headerbutton">
-                <button class="dropbtn" onclick="window.location.href = '/cummingsoon.html';">Coming Soon</button>
+                <button class="dropbtn" onclick="window.location.href = '/NewestUpload.html';">Latest Texts</button>
                 </div> 
 
             <div class="dropdown">
@@ -39,6 +40,10 @@ class SpeciealHeader extends HTMLElement {
                     <a href="https://mastodon.social/@Notonprint">Mastodon</a>
                 </div>
             </div>
+
+            <div class="headerbutton">
+            <button class="dropbtn" onclick="window.location.href = '/de/index.html';">&#127465;&#127466;</button>
+            </div> 
 
         </div>
         </header>
