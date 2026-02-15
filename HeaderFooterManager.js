@@ -12,6 +12,7 @@ class SpeciealHeader extends HTMLElement {
             <button class="dropbtn" onclick="window.location.href = '/text.html';">Text</button>
                 <div class="dropdown-content">
                     <a href="/Text/TheReadStream.html">The Red Stream</a>
+                    <a href="/de/Text/MarryMesser.html">Marry Messer</a>
                     <a href="/Text/Shortstories.html">Shortstories</a>
                     <a href="/Text/Diary.html">Diary</a>
                     <a href="/Text/Reviews.html">Reviews</a>
