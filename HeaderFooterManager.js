@@ -43,7 +43,7 @@ class SpeciealHeader extends HTMLElement {
             </div>
 
             <div class="headerbutton">
-            <button class="dropbtn" onclick="window.location.href = '/de/index.html';">&#127465;&#127466;</button>
+            <button class="dropbtn" onclick="window.location.href = '/de/index.html';">&#127466;&#127475;</button>
             </div> 
 
         </div>
