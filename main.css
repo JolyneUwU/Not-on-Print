@@ -13,6 +13,11 @@ html {
 
 }
 
+.footerbutton {
+    margin: 15;
+    display: inline-block;
+}
+
 
 .headerbutton {
     margin: 0;

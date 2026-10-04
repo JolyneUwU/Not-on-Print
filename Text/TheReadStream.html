@@ -3,21 +3,29 @@
 <head>
     <title>Not on print.com</title>
     <link rel="stylesheet" href="/main.css" type="text/css">
-    <script src="/HeaderFooterManager.js"></script>
+    <script src="/language.js"></script>
     <link rel="icon" href="/icon.jpg">
 </head>
 
 
 
-<body>
+<body onload="checkLanguage()">
     <special-header></special-header>
 
-
+<div id="eng" style="display:none">
     <p> <a href="TheReadStream/Prolouge.html">Prolouge</a></p>
     <p> <a href="TheReadStream/Chapter01/Page01.html">Chapter 1</a></p>
     <p> <a href="TheReadStream/Chapter02/Page01.html">Chapter 2</a></p>
-      
+</div>
+<div id="ger" style="display:block">  
+    <p> <a href="TheReadStream/Prolouge.html">Prolog</a></p>
+    <p> <a href="TheReadStream/Chapter01/Page01.html">Kapitel 1</a></p>
+    <p> <a href="TheReadStream/Chapter02/Page01.html">Kapitel 2</a></p>
+</div>
     
+
+    <special-footer>
+    </special-footer>
 </body>
 
 </html>

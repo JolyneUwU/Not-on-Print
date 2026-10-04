@@ -1,35 +1,53 @@
-<html  translate="no">
+<html translate="no">
 
 <head>
     <title>Not on print.com</title>
     <link rel="stylesheet" href="/main.css" type="text/css">
-    <script src="/HeaderFooterManager.js"></script>
+    <script src="/language.js"></script>
     <link rel="icon" href="/icon.jpg">
 </head>
 
 
 
-<body>
-    
+<body onload="checkLanguage()">
+
     <special-header>
     </special-header>
-    
-<div>
 
-        <div class="Textdivider" style="width:30% ;">
-            <h1>Deutsch</h1>
-                <p><a href="Reviews/de/SongOfIceAndFire/Seitenübersicht.html">Review Reihe: Das Lied von Eis und Feuer</a></p>            
-                <p><a href="Reviews/de/Tofu & Gemüse.html">Tofu & Gemüse</a></p>            
+    <div>
+        <div>
+            <div id="eng" style="display:none">
+                <div class="Textdivider" style="width:30% ;">
+                    <h1>German</h1>
+                </div>
+                <div class="Textdivider" style="width: 30%;">
+                    <h1>English</h1>
+                </div>
+            </div>
+            <div id="ger" style="display:none">
+                <div class="Textdivider" style="width:30% ;">
+                    <h1>Deutsch</h1>
+                </div>
+                <div class="Textdivider" style="width: 30%;">
+                    <h1>Englisch</h1>
+                </div>
+            </div>
+
+            <div class="Textdivider" style="width:30% ;">
+                <p><a href="Reviews/de/SongOfIceAndFire/Seitenübersicht.html">Review Reihe: Das Lied von Eis und
+                        Feuer</a></p>
+                <p><a href="Reviews/de/Tofu & Gemüse.html">Tofu & Gemüse</a></p>
                 <p><a href="Reviews/de/Verdichtung.html">Verdichtung</a></p>
-                <p><a href="Reviews/de/Mein großes Problem mit der Wahlkampagne der FDP.html">Mein großes Problem mit der Wahlkampagne der FDP</a></p>
+                <p><a href="Reviews/de/Mein großes Problem mit der Wahlkampagne der FDP.html">Mein großes Problem mit
+                        der Wahlkampagne der FDP</a></p>
                 <p><a href="Reviews/de/M.html">M - Eine Stadt sucht einen Mörder</a></p>
                 <p><a href="Reviews/de/Oktopusmädchen.html">Das Oktopusmädchen</a></p>
                 <p><a href="Reviews/de/Canterville-Gespenst.html">Das Canterville-Gespenst</a></p>
                 <p><a href="Reviews/de/ZoneOfIntrestDE.html">Zone of Intrest</a></p>
-        </div>
+            </div>
 
-        <div class="Textdivider" style="width:30% ;">
-            <h1>Englisch</h1>
+            <div class="Textdivider" style="width:30% ;">
+                <p><a href="Reviews/eng/WidowsBay.html">Widow&rsquo;s Bay</a></p>
                 <p><a href="Reviews/eng/Frankenstein.html">Frankenstein</a></p>
                 <p><a href="Reviews/eng/Hannibal - Season 01.html">Hannibal - Season 0</a></p>
                 <p><a href="Reviews/eng/Spider-Noir.html">Spider-Noir</a></p>
@@ -42,14 +60,18 @@
                 <p><a href="Reviews/eng/ZoneOfIntrest.html">Zone of Intrest</a></p>
                 <p><a href="Reviews/eng/Eusexa.html">Eusexa</a></p>
                 <p><a href="Reviews/eng/HurryUpTomorrow.html">hurry up tomorrow</a></p>
+
+            </div>
         </div>
 
 
 
+    </div>
 
-</div>
 
 
+    <special-footer>
+    </special-footer>
 </body>
 
 </html>

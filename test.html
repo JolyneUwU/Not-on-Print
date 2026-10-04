@@ -1,66 +1,52 @@
-<html  translate="no">
-
-<head>
-    <title>Not on print.com</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
-    <link rel="icon" href="/icon.jpg">
-</head>
-
-
+<!DOCTYPE html>
+<html>
 
 <body>
+    <h1>JavaScript Statements</h1>
 
-    <header>
-        <h1>
-            <div style="margin: 60; display: inline; ">Not on Print.com</div> 
-        </h1>
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
 
-        <div class="headermenu">
-            <div class="headerbutton">
-            <button class="dropbtn" onclick="window.location.href = 'index.html';">⌂</button>
-            </div> 
-            
-            <div class="dropdown">
-            <button class="dropbtn" onclick="window.location.href = 'text.html';">Text</button>
-                <div class="dropdown-content">
-                    <a href="Text/TheReadStream.html">The Red Stream</a>
-                    <a href="Text/Shortstories">Shortstories</a>
-                    <a href="Text/Diary.html">Diary</a>
-                    <a href="Text/Reviews.html">Reviews</a>
-                </div>
-            </div> 
 
-            <div class="headerbutton">
-                <button class="dropbtn" onclick="window.location.href = 'Audio.html';">Audio</button>
-            </div> 
+    <button type="button" onclick="changeLanguage(); checkLanguage()">Click Me!</button>
 
-            <div class="headerbutton">
-                <button class="dropbtn" onclick="window.location.href = 'Kassandra.html';">Kassandra</button>
-            </div> 
+    <p id="ger" style="display:none">Hallo</p>
+    <p id="eng" style="display:block">Hello</p>
 
-            <div class="headerbutton">
-                <button class="dropbtn" onclick="window.location.href = 'Gameplan.html';">Game-Plan</button>
-                </div> 
 
-            <div class="dropdown">
-                <button class="dropbtn" onclick="window.location.href = 'text.html';">Links</button>
-                <div class="dropdown-content">
-                    <a href="TheReadStream.html">Insta</a>
-                    <a href="Shortstories.html">Spotify</a>
-                    <a href="Diary.html">Leterbox</a>
-                </div>
-            </div>
 
-            <div class="dropdown">
-            <button class="dropbtn" onclick="window.location.href = 'text.html';">Language</button>
-                <div class="dropdown-content">
-                    <a href="de/index.html">Deutsch</a>
-                    <a href="index.html">English</a>
-                </div>
-            </div> 
+    <script>
 
-        </div>
-    </header>
+
+
+
+        var lang;
+        lang = 'eng'
+        checkLanguage()
+
+        function changeLanguage() {
+            if (lang == 'eng') {
+                lang = 'ger'
+            }
+            else if (lang == 'ger') {
+                lang = 'eng'
+            }
+        }
+
+        function checkLanguage() {
+            if (lang == 'eng') {
+                document.getElementById('eng').style.display = 'block'
+                document.getElementById('ger').style.display = 'none'
+            }
+
+            else if (lang == 'ger') {
+                document.getElementById('ger').style.display = 'block'
+                document.getElementById('eng').style.display = 'none'
+            }
+        }
+
+
+
+    </script>
 
 </body>
 

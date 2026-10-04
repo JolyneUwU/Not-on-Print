@@ -1,28 +1,50 @@
-<html  translate="no">
+<html translate="no">
 
 <head>
     <title>Not on print.com</title>
     <link rel="stylesheet" href="/main.css" type="text/css">
-    <script src="HeaderFooterManager.js"></script>
+    <script src="language.js"></script>
     <link rel="icon" href="/icon.jpg">
 </head>
 
 
 
-<body>
-    
+<body onload="checkLanguage()">
+
     <special-header>
     </special-header>
 
-    
-    <div class="c9">
-       <p>Deutsch:</p>  
-                <p><a href="/de/Text/Places/Bratified and Overstimulated.html">Bratified and Overstimulated</a></p>
-                <p><a href="Text/Reviews/de/SongOfIceAndFire/Buch 01.html">Song of Ice and Fire: Buch 01</a></p>
-        
-        
+
+    <div>
+        <div id="eng" style="display:none">
+            <div class="Textdivider" style="width:30% ;">
+                <h1>German</h1>
+            </div>
+            <div class="Textdivider" style="width: 30%;">
+                <h1>English</h1>
+            </div>
+        </div>
+        <div id="ger" style="display:none">
+            <div class="Textdivider" style="width:30% ;">
+                <h1>Deutsch</h1>
+            </div>
+            <div class="Textdivider" style="width: 30%;">
+                <h1>Englisch</h1>
+            </div>
+        </div>
+
+        <div class="Textdivider" style="width:30% ;">
+            <p><a href="/Text/MarryMesser/Chapter03/Page01.html">Marry Messer Akt III</a></p>
+        </div>
+
+        <div class="Textdivider" style="width:30% ;">
+            <p><a href="/Text/Reviews/eng/WidowsBay.html">Widow&rsquo;s Bay</a></p>
+        </div>
     </div>
-    
+
+
+    <special-footer>
+    </special-footer>
 </body>
 
 </html>

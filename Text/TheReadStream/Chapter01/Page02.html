@@ -2,7 +2,7 @@
 <head>
     <title>Not on print.com</title>
     <link rel="stylesheet" href="/main.css" type="text/css">
-    <script src="/HeaderFooterManager.js"></script>
+    <script src="/language.js"></script>
     <style type="text/css">
         p {
             margin: 0;
@@ -28,7 +28,7 @@
 <link rel="icon" href="/icon.jpg">
 </head>
 
-<body>
+<body onload="checkLanguage()">
 
     <special-header>
     </special-header>
@@ -56,6 +56,9 @@
         </div>
     </div>
 
+
+    <special-footer>
+    </special-footer>
 </body>
 
 </html>
