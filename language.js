@@ -147,12 +147,21 @@ function storeLanguage() {
     localStorage.setItem("langKey", lang);
 }
 
-function changeLanguage() {
-    if (lang == 'eng') {
+function changeLanguage(x) {
+
+    if (x==eng){
+        lang = 'eng'
+    } 
+    else if (x==ger){
         lang = 'ger'
     }
-    else if (lang == 'ger') {
-        lang = 'eng'
+    else{
+        if (lang == 'eng') {
+            lang = 'ger'
+        }
+        else if (lang == 'ger') {
+            lang = 'eng'
+        }
     }
     storeLanguage();
     checkLanguage();
